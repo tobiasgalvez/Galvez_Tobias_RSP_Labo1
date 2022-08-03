@@ -43,8 +43,18 @@ int controller_filterFire(LinkedList* lista);
  */
 int controller_filterTamanioYTipo(LinkedList* lista);
 
+/**
+ * Mapear lista modificando ataque cargado
+ * @param lista
+ * @return -1 si algo salio mal, 0 si esta ok
+ */
 int controller_mapAtaqueCargado(LinkedList* lista);
 
+/**
+ * Verificar si se pudo ganar la batalla
+ * @param lista
+ * @return -1 si algo salio mal, 0 si esta ok
+ */
 int controller_ganarBatalla(LinkedList* lista);
 
 /**
